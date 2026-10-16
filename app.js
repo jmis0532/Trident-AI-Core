@@ -25,6 +25,7 @@ function createVideoCard(video, index) {
   const media = document.createElement("div");
   media.className = "video-media";
   const title = String(video.title || `建模成果 ${index + 1}`);
+  card.setAttribute("aria-label", title);
   const id = getYouTubeId(video.youtube);
   if (id) {
     const frame = document.createElement("iframe");
@@ -49,13 +50,18 @@ function createVideoCard(video, index) {
     status.textContent = video.youtube ? "影片連結需要確認" : "影片待設定";
     media.append(number, shape, status);
   }
-  const info = document.createElement("div");
+  const info = document.createElement("dl");
   info.className = "card-info";
-  const heading = document.createElement("h3");
-  heading.textContent = title;
-  const description = document.createElement("p");
-  description.textContent = String(video.description || "");
-  info.append(heading, description);
+  for (const [label, value] of [["影片名稱", title], ["影片內容", video.description], ["備註", video.notes]]) {
+    const row = document.createElement("div");
+    row.className = "info-row";
+    const term = document.createElement("dt");
+    term.textContent = label;
+    const detail = document.createElement("dd");
+    detail.textContent = String(value || "—");
+    row.append(term, detail);
+    info.append(row);
+  }
   card.append(media, info);
   return card;
 }
