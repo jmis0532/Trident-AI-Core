@@ -1,6 +1,6 @@
 # Trident AI Core 影片展示頁
 
-Trident AI Core 公司的影像與 3D 建模成果展示網站，介面使用繁體中文，無需安裝套件或建置。直接開啟 `index.html` 即可檢視六個影片佔位欄位；目前尚未設定真實影片。
+Trident AI Core 公司的影像與 3D 建模成果展示網站，介面使用繁體中文，無需安裝套件或建置。目前第一格已設定使用者提供的影片 `https://youtu.be/R29Tzj-w0WE`，其餘五格保留待設定。
 
 原始公司標誌 `Trident AI Core LOGO/Logo.jpg` 保留不變。頁首使用其去背版本 `Trident AI Core LOGO/Logo-transparent.png`，具備實際 alpha 透明度，保留藍綠色三叉戟圖案與比例。
 
