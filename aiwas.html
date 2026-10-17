@@ -3,22 +3,22 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Trident AI Core 自製船艦遊戲的 AIWAS 研究展示，介紹 3D 影像資料、一般物件辨識與邊緣運算概念。">
+  <meta name="description" content="Trident AI Core 研究團隊 AIWAS（AI Weakness Attack System）展示：弱點辨識子系統、戰術導航、AI 演算模型與嵌入式系統。">
   <meta name="color-scheme" content="light">
   <title>Trident AI Core｜AIWAS 研究展示</title>
-  <link rel="stylesheet" href="styles.css?v=9">
+  <link rel="stylesheet" href="styles.css?v=10">
 </head>
 <body>
   <header class="site-header wrap">
     <a class="brand" href="./" aria-label="Trident AI Core 首頁"><img class="brand-logo" src="Trident%20AI%20Core%20LOGO/Logo-transparent.png" width="76" height="54" alt="Trident AI Core 研究團隊標誌"> TRIDENT AI CORE</a>
-    <a class="nav-link" href="./">研究團隊首頁 <span aria-hidden="true">↗</span></a>
+    <a class="nav-link" href="#aiwas-overview">瀏覽內容 <span aria-hidden="true">↓</span></a>
   </header>
   <main>
     <section class="hero wrap" aria-labelledby="page-title">
       <div class="eyebrow"><span></span> Trident AI Core 研究團隊影像展示</div>
       <h1 id="page-title">AIWAS</h1>
       <p class="hero-subtitle" lang="en">AI Weakness Attack System</p>
-      <div class="hero-bottom"><p>以團隊自製船艦遊戲為背景，呈現 3D 影像資料、一般影像辨識與邊緣運算的研究方向。</p></div>
+      <div class="hero-bottom"><p>結合 AI 與嵌入式系統的邊緣運算方案，以高精度 3D 影像資料庫訓練弱點辨識模型。</p></div>
     </section>
     <nav class="collection-nav" aria-label="影像展示入口">
       <div class="wrap collection-links">
@@ -27,45 +27,205 @@
         <a href="aiwas.html" aria-current="page">AIWAS</a>
       </div>
     </nav>
-    <div class="research-content"><div class="wrap">
-      <section class="research-overview" aria-labelledby="overview-title">
-        <div class="eyebrow">專案介紹</div>
-        <h2 id="overview-title">以遊戲影像，探索視覺辨識</h2>
-        <p>Trident AI Core 是研究團隊，目前正在製作自有船艦對戰遊戲。本頁介紹與遊戲影像相關的一般研究概念，將 3D 建模、影像資料與辨識展示放在同一個閱讀脈絡中。</p>
-      </section>
-      <section class="research-stage" aria-labelledby="topics-title">
-        <div class="eyebrow">研究方向</div>
-        <h2 id="topics-title">從立體模型到影像理解</h2>
-        <div class="research-topic-grid">
-          <article class="research-topic"><h3>3D 建模與影像資料</h3><p>以模型的不同視角呈現形體與細節。影像資料可作為 AI 訓練、模擬與視覺化展示的素材。</p><a href="./">查看影像資料庫 <span aria-hidden="true">↗</span></a></article>
-          <article class="research-topic"><h3>一般物件辨識</h3><p>影像辨識用來辨認畫面中的物件，並以類別標籤、辨識框等視覺方式呈現結果，方便觀察影像與標註之間的關係。</p><a href="yolo.html">查看遊戲辨識展示 <span aria-hidden="true">↗</span></a></article>
-          <article class="research-topic"><h3>邊緣運算概念</h3><p>將影像資料放在接近來源的裝置上處理，是邊緣運算的基本概念。一般研究會關注裝置資源、資料傳輸與結果呈現之間的關係。</p></article>
+
+    <div class="research-content aiwas-content"><div class="wrap">
+
+      <section class="aiwas-feature" id="aiwas-overview" aria-labelledby="f01">
+        <div class="aiwas-media"><video src="assets/aiwas/YOLO_Ships.mp4" muted loop playsinline controls preload="metadata" controlslist="nodownload noplaybackrate" disablepictureinpicture aria-label="AIWAS 展示影片">您的瀏覽器不支援影片播放。</video></div>
+        <div class="aiwas-text">
+          <div class="eyebrow" lang="en">AI Weakness Attack System</div>
+          <h2 id="f01">AIWAS</h2>
+          <p>AIWAS 專注於結合 AI 與嵌入式系統，提供可靠、低功耗、可即時反應的邊緣運算方案，讓模型在各類受限環境中一樣能穩定執行。</p>
+          <p>我們同時提供高精度 3D 建模與資料庫建置，支援 AI 訓練、模擬與可視化展示，打造端到端的智慧感知能力。</p>
+          <ul class="aiwas-checks"><li>即時反應與高可靠性</li><li>輕量化與低功耗</li><li>專用化與整合性</li></ul>
         </div>
       </section>
-      <section class="research-stage" aria-labelledby="process-title">
-        <div class="eyebrow">展示脈絡</div>
-        <h2 id="process-title">從資料到展示</h2>
-        <ol class="research-steps">
-          <li><h3>影像資料</h3><p>以 3D 模型及不同視角影像，提供可觀察的視覺素材。</p></li>
-          <li><h3>辨識呈現</h3><p>透過一般物件標籤與辨識框，呈現遊戲畫面中的辨識結果。</p></li>
-          <li><h3>圖文記錄</h3><p>以影片、圖片及簡短說明，讓訪客理解展示內容。</p></li>
-        </ol>
+
+      <section class="aiwas-feature" aria-labelledby="f02">
+        <div class="aiwas-media"><video src="assets/aiwas/YOLO_Ships_1.mp4" muted loop playsinline controls preload="metadata" controlslist="nodownload noplaybackrate" disablepictureinpicture aria-label="AIWAS-WRS-bridge 展示影片">您的瀏覽器不支援影片播放。</video></div>
+        <div class="aiwas-text">
+          <div class="eyebrow" lang="en">AI Weakness Attack System</div>
+          <h2 id="f02">AIWAS-WRS-bridge</h2>
+          <p>AIWAS-WRS 船艦辨識系統，bridge－以艦橋為弱點識別。</p>
+          <p>展示為 055 大型飛彈驅逐艦－南昌號 — <a href="./">中國一級艦艇影像資料庫</a></p>
+          <p>我們運用高精度 3D 影像資料，建立「中國一級艦艇」的專屬資料庫，並以此訓練出能夠精確鎖定艦橋的智慧攻擊辨識系統。該系統能在實戰環境中快速判斷目標艦橋位置，提供精準打擊的決策支援。</p>
+          <ul class="aiwas-checks"><li>建構中國一級艦艇影像資料庫</li><li>以艦橋為弱點目標辨識</li><li>實現高速、精準的攻擊判斷</li></ul>
+        </div>
       </section>
-      <section class="research-media-section" aria-labelledby="media-title">
-        <div class="research-media"><span aria-hidden="true">▷</span><p>影片待加入</p></div>
-        <div><div class="eyebrow">研究影片</div><h2 id="media-title">用影像記錄研究</h2><p>這裡預留本頁一般研究影片的展示位置。影片可搭配名稱、內容說明與備註，呈現各自的展示重點。</p><p>目前尚未加入本頁影片；已提供的遊戲辨識影片可於 YOLO 頁觀看。</p></div>
+
+      <section class="aiwas-feature" aria-labelledby="f03">
+        <div class="aiwas-media"><img src="assets/aiwas/AIWAS-Core.png" width="1884" height="1184" loading="lazy" alt="AIWAS 全系統架構圖"></div>
+        <div class="aiwas-text">
+          <div class="eyebrow" lang="en">AI Weakness Attack System</div>
+          <h2 id="f03">AIWAS－全系統架構</h2>
+          <p>AIWAS 所搭載的硬體系統採用「主系統核心模型 + 子模型切換」的分層架構。在運行時，核心模型會先進行初步判斷，例如辨識作戰場景中的大範圍條件（海面、陸地、空域等）。當核心模型偵測到符合特定條件的對象後，系統便會自動切換到對應的 YOLO 子模型，進行更精細的識別與分析（例如：車載裝甲辨識、船艦弱點辨識、建築物設施辨識等）。</p>
+          <p>這種架構的優點在於：</p>
+          <ul class="aiwas-checks"><li>效率最佳化：避免所有模型同時運行，降低運算負擔。</li><li>彈性擴充：可根據任務需求新增或替換子模型。</li><li>精準分流：讓不同子模型專注於其擅長的領域，提升辨識正確率。</li></ul>
+        </div>
       </section>
-      <section class="research-media-section" aria-labelledby="images-title">
-        <div class="research-media"><span aria-hidden="true">▧</span><p>研究圖片待加入</p></div>
-        <div><div class="eyebrow">圖片展示</div><h2 id="images-title">讓圖像與說明相互對照</h2><p>圖片區預留一般遊戲畫面與研究視覺素材的位置，搭配簡短圖說，讓訪客觀察畫面內容與呈現方式。</p><p>目前尚未加入圖片。</p></div>
+
+      <section class="aiwas-feature" aria-labelledby="f04">
+        <div class="aiwas-media"><video src="assets/aiwas/DW.mp4" muted loop playsinline controls preload="metadata" controlslist="nodownload noplaybackrate" disablepictureinpicture aria-label="AIWAS-WRS-Defensive Weapons 展示影片">您的瀏覽器不支援影片播放。</video></div>
+        <div class="aiwas-text">
+          <div class="eyebrow" lang="en">AI Weakness Attack System</div>
+          <h2 id="f04">AIWAS-WRS-Defensive Weapons</h2>
+          <p>AIWAS-WRS 船艦辨識系統，Defensive Weapons－以艦載防禦武器為弱點識別。</p>
+          <p>展示為 055 大型飛彈驅逐艦－南昌號 — <a href="./">中國一級艦艇影像資料庫</a></p>
+          <p>我們運用高精度 3D 影像資料，建立「中國一級艦艇」的專屬資料庫，並以此訓練出能夠精確鎖定艦載防禦武器的智慧攻擊辨識系統。該系統能在實戰環境中快速判斷艦載防禦武器位置，提供精準打擊的決策支援。</p>
+          <ul class="aiwas-checks"><li>建構中國一級艦艇影像資料庫</li><li>以艦載防禦武器為弱點目標辨識</li><li>實現高速、精準的攻擊判斷</li></ul>
+        </div>
       </section>
-      <div class="redacted-grid" aria-label="佔位內容">
-        <div class="redacted-panel">×××</div>
-        <div class="redacted-panel">×××</div>
-        <div class="redacted-panel">×××</div>
-      </div>
+
+      <section class="aiwas-feature" aria-labelledby="f05">
+        <div class="aiwas-media"><video src="assets/aiwas/DEMO-003.mp4" muted loop playsinline controls preload="metadata" controlslist="nodownload noplaybackrate" disablepictureinpicture aria-label="AIWAS-WRS-Carrier-based aircraft 展示影片">您的瀏覽器不支援影片播放。</video></div>
+        <div class="aiwas-text">
+          <div class="eyebrow" lang="en">AI Weakness Attack System</div>
+          <h2 id="f05">AIWAS-WRS-Carrier-based aircraft</h2>
+          <p>AIWAS-WRS-Carrier-based 航母艦載機攻擊子系統。</p>
+          <p>展示為福建號航空母艦 — <a href="./">中國一級艦艇影像資料庫</a></p>
+          <p>系統於接觸航母一定距離內，切換子系統對甲板的艦載機進行偵測與攻擊鎖定。透過高精度影像辨識與邊緣 AI 運算，能即時識別降落階段的敵方艦載機，並提供即時鎖定能力及判定目標順序，大幅提升精準打擊效率，同時降低戰場中對多目標的反應延遲。</p>
+          <ul class="aiwas-checks"><li>建構中國一級艦艇影像資料庫</li><li>以艦載機為弱點目標辨識</li><li>實現高速、精準的攻擊判斷</li></ul>
+        </div>
+      </section>
+
+      <section class="aiwas-feature" aria-labelledby="f06">
+        <div class="aiwas-media"><video src="assets/aiwas/DEMO-004.mp4" muted loop playsinline controls preload="metadata" controlslist="nodownload noplaybackrate" disablepictureinpicture aria-label="AIWAS-WRS-蜂群戰術 展示影片">您的瀏覽器不支援影片播放。</video></div>
+        <div class="aiwas-text">
+          <div class="eyebrow" lang="en">AI Weakness Attack System</div>
+          <h2 id="f06">AIWAS-WRS－蜂群戰術</h2>
+          <p>多方位、多角度突擊，掩護高規武裝突圍。</p>
+          <p>展示為南昌號大型飛彈驅逐艦 — <a href="./">中國一級艦艇影像資料庫</a></p>
+          <p>多通道協同掩護，提升高性能火力突進成功率。採用立體化掩護策略，支援高配武器群的快速突擊。協同不同攻擊面向，建立穩定且可重複的突入通道。</p>
+          <ul class="aiwas-checks"><li>「多方位、多角度攻勢──為高配武裝鋪就突破之路。」</li><li>「立體火力掩護，讓主力武器無阻前行。」</li><li>「環繞壓制，精準切入；我們為攻勢開道。」</li></ul>
+        </div>
+      </section>
+
+      <section class="aiwas-feature" aria-labelledby="f07">
+        <div class="aiwas-media"><img src="assets/aiwas/center.jpg" width="1374" height="771" loading="lazy" alt="戰術導航畫面：鏡頭中心、物件中心與距離線"></div>
+        <div class="aiwas-text">
+          <div class="eyebrow" lang="en">AI Weakness Attack System</div>
+          <h2 id="f07">AIWAS－戰術導航（1）</h2>
+          <p>紅色十字為鏡頭中心。</p>
+          <p>藍色十字為物件中心。</p>
+          <p>綠色直線為物件中心與鏡頭中心距離。</p>
+        </div>
+      </section>
+
+      <section class="aiwas-feature" aria-labelledby="f08">
+        <div class="aiwas-media"><img src="assets/aiwas/center-02.jpg" width="1382" height="774" loading="lazy" alt="戰術導航畫面：目標象限及角度"></div>
+        <div class="aiwas-text">
+          <div class="eyebrow" lang="en">AI Weakness Attack System</div>
+          <h2 id="f08">AIWAS－戰術導航（2）</h2>
+          <p>顯示目標象限及角度。</p>
+          <p>提供飛行導航數據。</p>
+        </div>
+      </section>
+
+      <section class="aiwas-feature" aria-labelledby="f09">
+        <div class="aiwas-media"><img src="assets/aiwas/center-03.jpg" width="1382" height="778" loading="lazy" alt="戰術導航畫面：Attack Sequence"></div>
+        <div class="aiwas-text">
+          <div class="eyebrow" lang="en">AI Weakness Attack System</div>
+          <h2 id="f09">AIWAS－戰術導航（3）</h2>
+          <p lang="en"><strong>Attack Sequence</strong></p>
+          <p>計算在艦隊群中，每艘艦艇的物件框中心與鏡頭底線的直線距離，以目標遠近規劃攻擊順序。</p>
+          <ul class="aiwas-checks"><li>計算多目標時的距離權重</li></ul>
+        </div>
+      </section>
+
+      <section class="aiwas-feature" aria-labelledby="f10">
+        <div class="aiwas-media"><img src="assets/aiwas/center-04.jpg" width="1381" height="776" loading="lazy" alt="戰術導航畫面：Target Priority"></div>
+        <div class="aiwas-text">
+          <div class="eyebrow" lang="en">AI Weakness Attack System</div>
+          <h2 id="f10">AIWAS－戰術導航（4）</h2>
+          <p lang="en"><strong>Target Priority</strong></p>
+          <p>權重 W1：代表距離權重。若 10 艘艦艇，則近到遠為 9～0 分。</p>
+          <p>權重 W2：代表弱點權重。若 WK 出現為 3 分，無則為 0 分。</p>
+          <p>權重 W3：權重加總。分數越高越先攻擊。</p>
+          <ul class="aiwas-checks"><li>船艦標註框右上角紅色數字為攻擊順序</li><li>自殺式無人機最終攻擊目標：物件中心（藍色十字）</li></ul>
+        </div>
+      </section>
+
+      <section class="aiwas-feature" aria-labelledby="f11">
+        <div class="aiwas-media"><img src="assets/aiwas/yolov11.jpg" width="1380" height="773" loading="lazy" alt="YOLOv11 模型示意圖"></div>
+        <div class="aiwas-text">
+          <div class="eyebrow" lang="en">AI Weakness Attack System</div>
+          <h2 id="f11">AIWAS－AI 演算模型</h2>
+          <p>我們採用了 YOLOv11m 模型 —— 當前 YOLO 系列中最新一代的演算法，以高精度與極速反應時間著稱，被廣泛認為是最適合邊緣 AI 應用的版本。其設計在效能與運算資源之間取得最佳平衡，特別適合部署於嵌入式與即時偵測系統。</p>
+          <ul class="aiwas-checks"><li>最新一代 YOLO 演算法。</li><li>高精度 + 低延遲。</li><li>在戰場環境中，它代表的就是 —— 即時、準確、制勝。</li></ul>
+        </div>
+      </section>
+
+      <section class="aiwas-feature" aria-labelledby="f12">
+        <div class="aiwas-media"><img src="assets/aiwas/YOLO11.png" width="1285" height="731" loading="lazy" alt="YOLO11 超參數調校示意圖"></div>
+        <div class="aiwas-text">
+          <div class="eyebrow" lang="en">AI Weakness Attack System</div>
+          <h2 id="f12">AIWAS－精心調校的超參數</h2>
+          <p>多年來的實戰經驗，v1～v12 各版本特色瞭若指掌，讓我們能夠針對 YOLO 的超參數與架構進行縝密調校。從學習率、批次大小、輸入解析度到網路深度與寬度，每一個細節都經過反覆驗證與最佳化。我們不僅追求精準度的提升，更在推論速度、記憶體使用與穩定性上取得完美平衡，確保 YOLO 能在嵌入式與實際任務環境中表現出最佳效能。</p>
+          <ul class="aiwas-checks"><li>多年經驗淬鍊，YOLO 超參數精心調校，架構更精準穩定。</li></ul>
+        </div>
+      </section>
+
+      <section class="aiwas-feature" aria-labelledby="f13">
+        <div class="aiwas-media"><img src="assets/aiwas/nvidia.jpg" width="1384" height="774" loading="lazy" alt="NVIDIA 嵌入式系統"></div>
+        <div class="aiwas-text">
+          <div class="eyebrow" lang="en">AI Weakness Attack System</div>
+          <h2 id="f13">AIWAS－嵌入式系統</h2>
+          <p>我們選擇 NVIDIA 嵌入式系統，因為它不僅比傳統 PC 架構更快、更省電，還能在有限資源下發揮最大效能。憑藉 ARM 精簡指令架構（RISC）的優勢，它在低功耗下依然能進行高效 AI 推論，實現即時影像辨識與高速決策回應。</p>
+          <ul class="aiwas-checks"><li>穩定性：高整合度設計，降低系統故障風險。</li><li>即時性：毫秒級反應時間，適應瞬息萬變的戰場。</li><li>制勝性：確保無人載具與智慧武器能快速捕捉並精準打擊目標。</li></ul>
+        </div>
+      </section>
+
+      <section class="aiwas-feature" aria-labelledby="f14">
+        <div class="aiwas-media"><img src="assets/aiwas/loading.jpg" width="1024" height="626" loading="lazy" alt="伺服器回應延遲示意圖"></div>
+        <div class="aiwas-text">
+          <div class="eyebrow" lang="en">AI Weakness Attack System</div>
+          <h2 id="f14">AIWAS－我們極力避免的事</h2>
+          <p>在環境複雜的戰場上，延遲等同於沉默，沉默等同於死亡。</p>
+          <p>AIWAS 絕不依賴遙遠的伺服器回應，它是隨行的作戰智慧，即時偵測、即時決斷、即時攻擊。</p>
+          <p>一秒鐘，決勝機會稍縱即逝，決定的是戰局，是勝敗。</p>
+          <ul class="aiwas-checks"><li>傳統系統仍在等待傳輸回應時，我們已經完成判斷、鎖定、攻擊。</li><li>在戰場上，延遲不是錯誤，而是敗北，唯有即時，才能換來勝利。</li><li>我們堅決打造的是自主判斷、零延遲的 AI 決策核心。</li></ul>
+        </div>
+      </section>
+
+      <section class="aiwas-feature" aria-labelledby="f15">
+        <div class="aiwas-media"><video src="assets/aiwas/J-15.mp4" muted loop playsinline controls preload="metadata" controlslist="nodownload noplaybackrate" disablepictureinpicture aria-label="航母艦載機攻擊子系統展示影片">您的瀏覽器不支援影片播放。</video></div>
+        <div class="aiwas-text">
+          <div class="eyebrow" lang="en">AI Weakness Attack System</div>
+          <h2 id="f15" lang="en">Our Next Steps（1）</h2>
+          <p>AIWAS-WRS-Carrier-based 航母艦載機攻擊子系統。</p>
+          <p>我們將持續擴充中國航母艦載機的機種資料，並不斷完善 YOLO 模型的學習與偵測能力。這不僅能提升系統在真實場景中的準確率，也能為未來的作戰模擬與弱點分析提供更完整、更精準的支持。透過持續增加多樣化的艦載機樣本，我們讓 AI 的判斷更加可靠，為前線決策提供堅實後盾。</p>
+          <ul class="aiwas-checks"><li>機種越多，智慧越強。</li><li>機種齊備，偵測更準。</li><li>資料不斷進化，AI 持續精準。</li></ul>
+        </div>
+      </section>
+
+      <section class="aiwas-feature" aria-labelledby="f16">
+        <div class="aiwas-media"><video src="assets/aiwas/Next.mp4" muted loop playsinline controls preload="metadata" controlslist="nodownload noplaybackrate" disablepictureinpicture aria-label="各弱點系統切換展示影片">您的瀏覽器不支援影片播放。</video></div>
+        <div class="aiwas-text">
+          <div class="eyebrow" lang="en">AI Weakness Attack System</div>
+          <h2 id="f16" lang="en">Our Next Steps（2）</h2>
+          <p>AIWAS－艦載防禦武器－雷達－飛彈發射器－各弱點系統切換。</p>
+          <p>展示為 055 大型飛彈驅逐艦－南昌號 — <a href="./">中國一級艦艇影像資料庫</a></p>
+          <p>AIWAS 以模組化架構將「艦載防禦武器、雷達、飛彈發射器」三大子系統依任務需求隨時切換，輸出以權重指標為核心的弱點優先序與風險評估，支援演訓、測試與決策推演，確保在瞬息場景中維持穩定、即時、可解釋的判斷。</p>
+          <ul class="aiwas-checks"><li>可精準鎖定各個打擊目標</li><li>可達成多目標的任務需求</li><li>可搭配多機聯合攻擊多目標，或飽和攻擊單一目標</li></ul>
+        </div>
+      </section>
+
     </div></div>
   </main>
   <footer class="wrap"><span class="footer-brand">TRIDENT AI CORE</span><span>研究團隊影像展示・AIWAS</span><a href="#page-title">回到頂端 ↑</a></footer>
+  <script>
+  // 影片進入畫面時自動靜音播放，離開時暫停，避免同時播放多支影片。
+  (function () {
+    var videos = document.querySelectorAll(".aiwas-media video");
+    if (!("IntersectionObserver" in window) || window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (e) {
+        if (e.isIntersecting) { var p = e.target.play(); if (p && p.catch) p.catch(function () {}); }
+        else e.target.pause();
+      });
+    }, { threshold: 0.4 });
+    videos.forEach(function (v) { io.observe(v); });
+  })();
+  </script>
 </body>
 </html>
