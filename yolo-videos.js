@@ -2,7 +2,7 @@
 window.TRIDENT_VIDEOS = [
   {
     title: "YOLO Ships",
-    description: "團隊自製船艦遊戲的辨識展示。",
+    description: "團隊研發船艦的辨識系統展示。",
     notes: "",
     youtube: "https://youtu.be/tWkRgZ0_aKE"
   }
