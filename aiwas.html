@@ -6,7 +6,9 @@
   <meta name="description" content="Trident AI Core 研究團隊 AIWAS（AI Weakness Attack System）展示：弱點辨識子系統、戰術導航、AI 演算模型與嵌入式系統。">
   <meta name="color-scheme" content="light">
   <title>Trident AI Core｜AIWAS 研究展示</title>
-  <link rel="stylesheet" href="styles.css?v=10">
+  <link rel="stylesheet" href="styles.css?v=11">
+  <script src="aiwas-videos.js?v=2"></script>
+  <script src="app.js?v=2"></script>
 </head>
 <body>
   <header class="site-header wrap">
@@ -29,9 +31,10 @@
     </nav>
 
     <div class="research-content aiwas-content"><div class="wrap">
+      <noscript><p class="noscript-note">請啟用 JavaScript，以顯示影片展示欄位。</p></noscript>
 
       <section class="aiwas-feature" id="aiwas-overview" aria-labelledby="f01">
-        <div class="aiwas-media"><video src="https://youtu.be/tWkRgZ0_aKE" muted loop playsinline controls preload="metadata" controlslist="nodownload noplaybackrate" disablepictureinpicture aria-label="AIWAS 展示影片">您的瀏覽器不支援影片播放。</video></div>
+        <div class="aiwas-media"><div class="video-media" data-aiwas-video="overview"></div></div>
         <div class="aiwas-text">
           <div class="eyebrow" lang="en">AI Weakness Attack System</div>
           <h2 id="f01">AIWAS</h2>
@@ -42,7 +45,7 @@
       </section>
 
       <section class="aiwas-feature" aria-labelledby="f02">
-        <div class="aiwas-media"><video src="assets/aiwas/YOLO_Ships_1.mp4" muted loop playsinline controls preload="metadata" controlslist="nodownload noplaybackrate" disablepictureinpicture aria-label="AIWAS-WRS-bridge 展示影片">您的瀏覽器不支援影片播放。</video></div>
+        <div class="aiwas-media"><div class="video-media" data-aiwas-video="bridge"></div></div>
         <div class="aiwas-text">
           <div class="eyebrow" lang="en">AI Weakness Attack System</div>
           <h2 id="f02">AIWAS-WRS-bridge</h2>
@@ -65,7 +68,7 @@
       </section>
 
       <section class="aiwas-feature" aria-labelledby="f04">
-        <div class="aiwas-media"><video src="assets/aiwas/DW.mp4" muted loop playsinline controls preload="metadata" controlslist="nodownload noplaybackrate" disablepictureinpicture aria-label="AIWAS-WRS-Defensive Weapons 展示影片">您的瀏覽器不支援影片播放。</video></div>
+        <div class="aiwas-media"><div class="video-media" data-aiwas-video="defensive-weapons"></div></div>
         <div class="aiwas-text">
           <div class="eyebrow" lang="en">AI Weakness Attack System</div>
           <h2 id="f04">AIWAS-WRS-Defensive Weapons</h2>
@@ -77,7 +80,7 @@
       </section>
 
       <section class="aiwas-feature" aria-labelledby="f05">
-        <div class="aiwas-media"><video src="assets/aiwas/DEMO-003.mp4" muted loop playsinline controls preload="metadata" controlslist="nodownload noplaybackrate" disablepictureinpicture aria-label="AIWAS-WRS-Carrier-based aircraft 展示影片">您的瀏覽器不支援影片播放。</video></div>
+        <div class="aiwas-media"><div class="video-media" data-aiwas-video="carrier-aircraft"></div></div>
         <div class="aiwas-text">
           <div class="eyebrow" lang="en">AI Weakness Attack System</div>
           <h2 id="f05">AIWAS-WRS-Carrier-based aircraft</h2>
@@ -89,7 +92,7 @@
       </section>
 
       <section class="aiwas-feature" aria-labelledby="f06">
-        <div class="aiwas-media"><video src="assets/aiwas/DEMO-004.mp4" muted loop playsinline controls preload="metadata" controlslist="nodownload noplaybackrate" disablepictureinpicture aria-label="AIWAS-WRS-蜂群戰術 展示影片">您的瀏覽器不支援影片播放。</video></div>
+        <div class="aiwas-media"><div class="video-media" data-aiwas-video="swarm"></div></div>
         <div class="aiwas-text">
           <div class="eyebrow" lang="en">AI Weakness Attack System</div>
           <h2 id="f06">AIWAS-WRS－蜂群戰術</h2>
@@ -188,7 +191,7 @@
       </section>
 
       <section class="aiwas-feature" aria-labelledby="f15">
-        <div class="aiwas-media"><video src="assets/aiwas/J-15.mp4" muted loop playsinline controls preload="metadata" controlslist="nodownload noplaybackrate" disablepictureinpicture aria-label="航母艦載機攻擊子系統展示影片">您的瀏覽器不支援影片播放。</video></div>
+        <div class="aiwas-media"><div class="video-media" data-aiwas-video="next-carrier"></div></div>
         <div class="aiwas-text">
           <div class="eyebrow" lang="en">AI Weakness Attack System</div>
           <h2 id="f15" lang="en">Our Next Steps（1）</h2>
@@ -199,7 +202,7 @@
       </section>
 
       <section class="aiwas-feature" aria-labelledby="f16">
-        <div class="aiwas-media"><video src="assets/aiwas/Next.mp4" muted loop playsinline controls preload="metadata" controlslist="nodownload noplaybackrate" disablepictureinpicture aria-label="各弱點系統切換展示影片">您的瀏覽器不支援影片播放。</video></div>
+        <div class="aiwas-media"><div class="video-media" data-aiwas-video="next-switching"></div></div>
         <div class="aiwas-text">
           <div class="eyebrow" lang="en">AI Weakness Attack System</div>
           <h2 id="f16" lang="en">Our Next Steps（2）</h2>
@@ -214,17 +217,28 @@
   </main>
   <footer class="wrap"><span class="footer-brand">TRIDENT AI CORE</span><span>研究團隊影像展示・AIWAS</span><a href="#page-title">回到頂端 ↑</a></footer>
   <script>
-  // 影片進入畫面時自動靜音播放，離開時暫停，避免同時播放多支影片。
+  // 依 aiwas-videos.js 設定建立 YouTube 內嵌播放器；未設定時顯示待設定佔位。
   (function () {
-    var videos = document.querySelectorAll(".aiwas-media video");
-    if (!("IntersectionObserver" in window) || window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
-    var io = new IntersectionObserver(function (entries) {
-      entries.forEach(function (e) {
-        if (e.isIntersecting) { var p = e.target.play(); if (p && p.catch) p.catch(function () {}); }
-        else e.target.pause();
-      });
-    }, { threshold: 0.4 });
-    videos.forEach(function (v) { io.observe(v); });
+    var config = window.AIWAS_VIDEOS || {};
+    var slots = document.querySelectorAll("[data-aiwas-video]");
+    for (var i = 0; i < slots.length; i++) {
+      var slot = slots[i], item = config[slot.getAttribute("data-aiwas-video")] || {};
+      var id = typeof getYouTubeId === "function" ? getYouTubeId(item.youtube) : null;
+      if (id) {
+        var frame = document.createElement("iframe");
+        frame.src = "https://www.youtube-nocookie.com/embed/" + id;
+        frame.title = item.title || "AIWAS 展示影片";
+        frame.loading = "lazy";
+        frame.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share";
+        frame.referrerPolicy = "strict-origin-when-cross-origin";
+        frame.allowFullscreen = true;
+        slot.appendChild(frame);
+      } else {
+        slot.className += " placeholder variation-" + (i % 3);
+        slot.innerHTML = '<span class="slot-number">' + String(i + 1).padStart(2, "0") + '</span><div class="wire-cube" aria-hidden="true"><span></span><span></span><span></span></div><span class="slot-status"></span>';
+        slot.querySelector(".slot-status").textContent = item.youtube ? "影片連結需要確認" : "影片待設定";
+      }
+    }
   })();
   </script>
 </body>
