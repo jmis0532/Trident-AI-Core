@@ -1,8 +1,8 @@
 # Trident AI Core 影片展示頁
 
-Trident AI Core 公司的影像與 3D 建模成果展示網站，介面使用繁體中文，無需安裝套件或建置。目前共設定 17 支影片：保留原本前兩支，再依使用者提供清單的順序加入 15 支新影片，以 YouTube 影片識別值去重。原始清單不包含在公開版本中。
+Trident AI Core 研究團隊的影像與 3D 建模成果展示網站，介面使用繁體中文，無需安裝套件或建置。目前共設定 17 支影片：保留原本前兩支，再依使用者提供清單的順序加入 15 支新影片，以 YouTube 影片識別值去重。原始清單不包含在公開版本中。
 
-原始公司標誌 `Trident AI Core LOGO/Logo.jpg` 保留不變。頁首使用其去背版本 `Trident AI Core LOGO/Logo-transparent.png`，具備實際 alpha 透明度，保留藍綠色三叉戟圖案與比例。
+原始研究團隊標誌 `Trident AI Core LOGO/Logo.jpg` 保留不變。頁首使用其去背版本 `Trident AI Core LOGO/Logo-transparent.png`，具備實際 alpha 透明度，保留藍綠色三叉戟圖案與比例。
 
 透明版本透過內建 imagegen 編輯，設定透明背景。編輯提示要求：僅移除白底，保留原圖的藍綠色三叉戟輪廓、顏色、角度、比例與方向；輸出實際透明 PNG，邊緣平順、無白框，不重新設計、不加文字、陰影或其他元素。
 
