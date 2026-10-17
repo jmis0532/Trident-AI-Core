@@ -3,103 +3,103 @@
 // 留空的備註顯示「—」；複製或移除項目即可調整影片數量。
 window.TRIDENT_VIDEOS = [
   {
-    "title": "建模成果 01",
+    "title": "遼寧航母 360環繞 800 3",
     "description": "透過影片觀看這件作品的建模成果。",
     "notes": "",
     "youtube": "https://youtu.be/R29Tzj-w0WE"
   },
   {
-    "title": "建模成果 02",
+    "title": "遼寧航母 360環繞 800 2",
     "description": "透過影片觀看這件作品的建模成果。",
     "notes": "",
     "youtube": "https://youtu.be/HNnMuboZh1A"
   },
   {
-    "title": "建模成果 03",
+    "title": "055大型驅逐艦 360環繞 800 3",
     "description": "透過影片觀看這件作品的建模成果。",
     "notes": "",
     "youtube": "https://youtu.be/eS_zJit3puo"
   },
   {
-    "title": "建模成果 04",
+    "title": "055大型驅逐艦 360環繞 800 2",
     "description": "透過影片觀看這件作品的建模成果。",
     "notes": "",
     "youtube": "https://youtu.be/ym5-oUWC6HE"
   },
   {
-    "title": "建模成果 05",
+    "title": "055大型驅逐艦 360環繞 800 1",
     "description": "透過影片觀看這件作品的建模成果。",
     "notes": "",
     "youtube": "https://youtu.be/izOwmbm1KD4"
   },
   {
-    "title": "建模成果 06",
+    "title": "福建航母 360環繞 800 3",
     "description": "透過影片觀看這件作品的建模成果。",
     "notes": "",
     "youtube": "https://youtu.be/IiLCJ4aSxNU"
   },
   {
-    "title": "建模成果 07",
+    "title": "福建航母 360環繞 800 2",
     "description": "透過影片觀看這件作品的建模成果。",
     "notes": "",
     "youtube": "https://youtu.be/580Fhe_u05o"
   },
   {
-    "title": "建模成果 08",
+    "title": "海警船 360環繞 800 3",
     "description": "透過影片觀看這件作品的建模成果。",
     "notes": "",
     "youtube": "https://youtu.be/1ebzJX6OWIs"
   },
   {
-    "title": "建模成果 09",
+    "title": "海警船 360環繞 800 2",
     "description": "透過影片觀看這件作品的建模成果。",
     "notes": "",
     "youtube": "https://youtu.be/g0HrIEfN1tM"
   },
   {
-    "title": "建模成果 10",
+    "title": "海警船 360環繞 800 1",
     "description": "透過影片觀看這件作品的建模成果。",
     "notes": "",
     "youtube": "https://youtu.be/4Ja2fCAChRw"
   },
   {
-    "title": "建模成果 11",
+    "title": "052C驅逐艦 360環繞 800 3",
     "description": "透過影片觀看這件作品的建模成果。",
     "notes": "",
     "youtube": "https://youtu.be/t94GRbrkdsM"
   },
   {
-    "title": "建模成果 12",
+    "title": "052C驅逐艦 360環繞 800 2",
     "description": "透過影片觀看這件作品的建模成果。",
     "notes": "",
     "youtube": "https://youtu.be/SXmSMrw5YiQ"
   },
   {
-    "title": "建模成果 13",
+    "title": "052C驅逐艦 360環繞 800 1",
     "description": "透過影片觀看這件作品的建模成果。",
     "notes": "",
     "youtube": "https://youtu.be/wp6nbFIDlS0"
   },
   {
-    "title": "建模成果 14",
+    "title": "山東航母 360環繞 800 3",
     "description": "透過影片觀看這件作品的建模成果。",
     "notes": "",
     "youtube": "https://youtu.be/bmle-JrbX3s"
   },
   {
-    "title": "建模成果 15",
+    "title": "山東航母 360環繞 800 2",
     "description": "透過影片觀看這件作品的建模成果。",
     "notes": "",
     "youtube": "https://youtu.be/EIOT3mqz__E"
   },
   {
-    "title": "建模成果 16",
+    "title": "兩棲突擊艦 360環繞 800 3",
     "description": "透過影片觀看這件作品的建模成果。",
     "notes": "",
     "youtube": "https://youtu.be/HpJF4ijya8U"
   },
   {
-    "title": "建模成果 17",
+    "title": "兩棲突擊艦 360環繞 800 2",
     "description": "透過影片觀看這件作品的建模成果。",
     "notes": "",
     "youtube": "https://youtu.be/sqEsu8PQ1no"
