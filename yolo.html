@@ -3,10 +3,12 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Trident AI Core 研究團隊的 YOLO 船艦辨識成果影片展示頁，辨識成果影片待加入。">
+  <meta name="description" content="Trident AI Core 研究團隊自製船艦遊戲的 YOLO 辨識展示影片。">
   <meta name="color-scheme" content="light">
   <title>Trident AI Core｜YOLO 船艦辨識成果</title>
-  <link rel="stylesheet" href="styles.css?v=7">
+  <link rel="stylesheet" href="styles.css?v=8">
+  <script src="yolo-videos.js?v=1" defer></script>
+  <script src="app.js?v=2" defer></script>
 </head>
 <body>
   <header class="site-header wrap">
@@ -29,7 +31,8 @@
     <section class="gallery-section" id="results" aria-labelledby="results-title">
       <div class="wrap">
         <div class="section-heading"><div><div class="eyebrow">研究團隊辨識影像</div><h2 id="results-title">YOLO 船艦辨識成果</h2></div></div>
-        <div class="results-empty"><span class="empty-mark" aria-hidden="true">＋</span><h3>辨識成果影片待加入</h3><p>成果影片加入後，將在此展示。</p></div>
+        <div class="video-grid yolo-grid" id="video-grid"></div>
+        <noscript><p class="noscript-note">請啟用 JavaScript，以顯示影片展示欄位。</p></noscript>
       </div>
     </section>
   </main>

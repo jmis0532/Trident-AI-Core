@@ -16,6 +16,8 @@ AIWAS 頁包含一般影像辨識與邊緣運算概述、尚未加入的一般�
 
 集中編輯 `videos.js` 中的 `window.TRIDENT_VIDEOS`：
 
+首頁影片使用 `videos.js`；YOLO 頁使用獨立的 `yolo-videos.js`，目前展示團隊自製船艦遊戲的影片「YOLO Ships」。兩頁沿用相同的影片卡片與三項資訊欄位。
+
 - `title`：影片名稱。
 - `description`：影片內容。
 - `notes`：備註；留空時顯示「—」。
